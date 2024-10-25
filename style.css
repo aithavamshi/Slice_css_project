@@ -1,0 +1,515 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: solid; */
+}
+.main{
+    height: 400vh;
+    background-image: linear-gradient(to right bottom, #2a7efe, #2997ff, #48aeff, #6ec3ff, #97d7ff);
+}
+#video{
+    width: 100%;
+    height: 800px;
+    /* width: 100%; height: 100vh; */
+}
+nav{
+    width: 100%;
+    padding: 25px;
+    height: 100px;
+    position: fixed;
+}
+svg{
+    /* padding: 10px; */
+    height: 25px;
+}
+#navh3{
+    float: right;
+     color: #ffff;
+     font-size: 20px;
+    margin-left: 900px;
+}
+.home{
+    width: 100%;
+    height: 700px;
+    /* display: flex; */
+    position: relative;
+}
+img[alt="money"]{
+    height: 107px;
+    width: 300px;
+    position: absolute;
+    right: 650px; 
+    top: 250px;
+}
+#homeh1{
+    color: #ffff;
+    position: absolute;
+   left :550px;
+   top: 140px;
+   font-weight: 900;
+   font-style: normal;
+   font-size: 60px;
+}
+#homebutton{
+    width: 175px;
+    height: 44px;
+    color: #e5e7eb;
+    background-color: #77a8fc3f;
+    border-radius: 20px;
+    border: 0 solid #e5e7eb;
+    position: absolute;
+    right: 730px; 
+    top: 360px;
+    font-weight: 900;
+}
+#ballupispring{
+    position: relative;
+    height: 150px;
+    /* background-color: black; */
+}
+img[alt="spring"]{
+    width: 150px;
+    height: 150px;
+    animation-name: spring;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    right: 40px;
+
+}
+@keyframes spring {
+0%{
+    transform: rotatez(360deg) translateZ(10px);
+}    
+}
+img[alt="upiball"]{
+    width: 150px;
+    height: 150px;
+    animation-name: upiball;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    right: 500px;  
+}
+@keyframes upiball {
+    0%{
+        transform: rotatez(360deg) translateZ(10px);
+    }   
+}
+.upi{
+    height: 130vh;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+img[alt="upiphone"]{
+    width: 1200px;
+    height: 680px;
+}
+#upitexth1{
+    position: absolute;
+    right: 90px;
+    font-size: 4rem;
+    color: white;
+    top: 300px;
+    width: 400px;
+}
+#upitextp{
+    position: absolute;
+    right: 90px;
+    font-size: 22px; 
+    color: white; 
+    top: 450px; 
+    width: 400px;
+}
+img[alt="blueflower"]{
+    width: 550px;
+    height: 700px;
+    position: absolute;
+    left: 40px;
+    bottom: 20px;
+}
+img[alt="greenflower"]{
+    width: 1100px;
+    height: 600px;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+}
+img[alt="rewardsring"]{
+    width: 100px;
+    height: 100px;
+    animation-name: rewardsring;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    bottom: 230px;
+    left: 450px;
+
+}
+@keyframes rewardsring {
+0%{
+    transform: rotatez(360deg) translateZ(10px);
+}    
+}
+.borrow{
+    height: 150vh;
+    position: relative; 
+    /* display: flex; */
+}
+img[alt="borrowphone"]{
+    width: 100%;
+    position: absolute;
+    /* height: 150px; */
+}
+img[alt="greeneye"]{
+    width:1200px;
+    /* height: 800px; */
+    position: absolute;
+    top: 0;
+    /* z-index: -1; */
+}
+img[alt="yelloweye"]{
+    width: 100%;
+}
+img[alt="borrowcrystal"]{
+    position: absolute;
+    right:50px;
+    top: 50px;
+    height: 700px;
+}
+img[ alt="blueball"]{
+    width: 150px;
+    position: absolute;
+    right: 250px;
+    animation-name: blueball;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+}
+@keyframes blueball {
+    0%{
+        transform: rotatez(360deg) translateZ(10px);
+    }    
+}
+img[alt="feathereye"]{
+position: absolute;
+width: 300px;
+left: 350px;
+top: 200px;
+animation-name: feathereye;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+} 
+@keyframes feathereye {
+    0%{
+        transform: translateY(25px) rotatez(8deg) translateZ(0px);
+    }
+    50%{
+        transform: translateY(-25px);
+    }
+    100%{
+        transform: translateY(25px) translateZ(10px);
+    }    
+}
+img[alt="borrowball"]{
+    width: 150px;
+    height: 150px;
+    animation-name: borrowball;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    right: 400px;
+    top: 150px;  
+}
+@keyframes borrowball {
+    0%{
+        transform: translatey(20px) translateZ(0px);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(20px) translateZ(10px);
+    }       
+}
+img[alt="borrowring"]{
+    width: 100px;
+    height: 100px;
+    animation-name: borrowring;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    top: 0;
+    /* bottom: 230px; */
+    left: 250px;
+
+}
+@keyframes borrowring {
+0%{
+    transform: translateY(20px) translateZ(10px);
+}
+ 50%{
+    transform: translateY(-20px);
+}
+100%{
+    transform: translateY(20px) translateZ(10px);
+}    
+}
+#borrowh1{
+    position: absolute;
+    left: 70px;
+    font-size: 70px;
+    color: white;
+    top: 450px;
+    width: 350px;
+}
+#borrowp{
+    position: absolute;
+    left: 70px;
+    font-size: 25px;
+    color: white;
+    top: 620px;
+    width: 400px;
+    /* height: 50px; */
+}
+.rewards{
+    height: 180vh;
+    position: relative;
+    background-image: linear-gradient(to bottom, #5ebaff, #63b2ff, #6fa8ff, #809eff, #9392ff, #9a8cff, #a385ff, #ac7dfd, #a97bfd, #a579fc, #a278fc, #9e76fc);
+}
+img[ alt="rewarsphone"]{
+    width: 100%;
+    /* z-index: 1; */
+}
+#rewardtexth1{
+    position: absolute;
+    right: 180px;
+    font-size: 4rem;
+    color: white;
+    top: 200px;
+    width: 300px;
+}
+#rewardtextp{
+    position: absolute;
+    right: 180px;
+    font-size: 26px; 
+    color: white; 
+    top: 350px; 
+    width: 300px;
+}
+img[alt="rewardblue"]{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    /* z-index: 0;   */
+}
+img[alt="rewardcrystal1"]{
+width: 1100px;
+height: 800px;
+left: 60px;
+position: absolute;
+animation-name:rewardcrystal1 ;
+animation-duration: 7s;
+animation-iteration-count: infinite;
+position: absolute;
+}
+@keyframes rewardcrystal1{
+0%{
+transform: translateY(20px) translateZ(10px);
+}
+50%{
+    transform: translateY(-20px);
+}
+100%{
+    transform: translateY(20px) translateZ(10px);
+}    
+}
+img[alt="rewardcrystal2"]{
+    width: 1100px;
+    height: 800px;
+    left: 400px;
+    position: absolute;
+    animation-name:rewardcrystal2 ;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    }
+    @keyframes rewardcrystal2{
+    0%{
+    transform: translateY(20px) translateZ(10px);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(20px) translateZ(10px);
+    }    
+}
+img[alt="borrowplus"]{
+    width: 400px;
+    height: 500px;
+    right: 200px;
+    top: 350px;
+    position: absolute;
+    animation-name:rewardcrystal2 ;
+    animation-timing-function: linear;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    }
+    @keyframes rewardcrystal2{
+    0%{
+    transform: translateY(20px) translateZ(10px);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(20px) translateZ(10px);
+    }    
+}
+img[alt="uppercurve"]{
+    width: 1510px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+img[alt="borrowring1"]{
+    width: 800px;
+    height: 500px;
+    animation-name: borrowring1;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    right: 40px;
+    bottom: 0;
+
+}
+@keyframes borrowring1{
+0%{
+    transform: translateY(14px) translateZ(0px);
+}    
+}
+.cards{
+    height: 70vh;
+    display: flex;
+    position: relative;
+    left: 0px;
+    padding-top: 30px;
+}
+#card1{
+    width: 352px;
+    height: 430px;
+    background-color:#D42358;
+    border-radius: 20px;
+   position: absolute;
+   left: 120px;
+}
+#card1:hover{
+    transform: scale(1.1,1.1);
+    z-index: 1;
+    transition-duration: 0.5s;
+}
+#card2:hover{
+    z-index: 1;
+    transform: scale(1.1,1.1);
+    transition-duration: 0.5s;
+}
+#card3:hover{
+    z-index: 1;
+    transform: scale(1.1,1.1);
+    transition-duration: 0.5s;
+}
+#card1h1{
+    position: absolute;
+    left: 20px;
+    font-size: 40px;
+    color: white;
+    top: 35px;
+    width: 200px;
+}
+#cardbutton{
+    position: absolute;
+    top: 150px;
+    background-color: rgba(255, 255, 255, 0.473) ;
+    font-size: 15px;
+    left: 30px ;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    color: white
+}
+#cardbutton2{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.473) ;
+    position: absolute;
+    font-size: 15px;
+    top: 120px;
+    left: 30px ;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+}
+img[alt="accountcard"]{
+    width: 100%;
+    height: 100%;
+}
+#card2{
+    width: 352px;
+    height: 400px;
+    background-color:#B106CD;
+    border-radius: 20px;
+    position: absolute;
+    left: 450px;
+    bottom: 100px;
+}
+img[alt="accountcard1"]{
+    width: 100%;
+    height: 510px;
+}
+#card3{
+    width: 352px;
+    height: 430px;
+    background-color:#7025EA;
+    border-radius: 20px;
+    position: absolute;
+    left: 770px; 
+}
+footer{
+    height: 120vh;
+    background-color: #2D2DE1;
+    position: relative;
+}
+img[alt="lowercurve"]{
+    width: 1510px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* bottom: 0;  */
+}
+img[ alt="footer"]{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.tables{
+    position: relative;
+    height: 100vh;
+}
+#list{
+    position: absolute;
+    /* margin: 50px; */
+    width: 1100px;
+    top: 150px;
+    left: 200px;
+}
+td{
+    color: #ffff;
+    padding: 10px 90px 5px 5px;
+    font-size: small;
+    font-weight: 300;
+}
+    
